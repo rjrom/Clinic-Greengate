@@ -255,7 +255,7 @@ h6,
 }
 
 .service-item .service-img {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100%;
     top: 0;
@@ -265,7 +265,7 @@ h6,
 }
 
 .service-item .service-img img {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100%;
     left: 0;
