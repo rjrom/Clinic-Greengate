@@ -9,3 +9,5 @@ Our website is designed to provide visitors with a clear and concise overview of
 
 
 We invite you to explore our website and learn more about Greengate Medical and Diagnostic Clinic. If you have any questions or would like to schedule an appointment, please don't hesitate to contact us. Thank you for choosing Greengate Medical and Diagnostic Clinic for your healthcare needs.
+
+This Webpage is made possible with the power of Bootstrap.
