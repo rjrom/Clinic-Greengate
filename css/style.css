@@ -331,6 +331,10 @@ h6,
 
 
 /*** Project Portfolio ***/
+.portfolio {
+    position: relative; /* Add this line */
+    margin-top: 50px;
+  }
 #portfolio-flters {
     display: inline-block;
     background: var(--light);
