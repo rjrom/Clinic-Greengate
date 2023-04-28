@@ -85,3 +85,20 @@ const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})
 navLinks.forEach((l) => {
     l.addEventListener('click', () => { bsCollapse.toggle() })
 })
+
+(function()
+{
+  if( window.localStorage )
+  {
+    //check if reloaded once already 
+    if( !localStorage.getItem('firstLoad') )
+    {
+     //if not reloaded once, then set firstload to true
+      localStorage['firstLoad'] = true;
+      //reload the webpage using reload() method
+      window.location.reload();
+    }  
+    else 
+      localStorage.removeItem('firstLoad');
+  }
+})();
